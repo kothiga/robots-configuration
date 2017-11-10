@@ -27,12 +27,13 @@
     </group>
 
     <group name="2FOC">
+        <param name="AutoCalibration">          0                   0                   </param>
         <param name="HasHallSensor">            0                   0                   </param>
         <param name="HasTempSensor">            0                   0                   </param> <!-- pero' ha il sensore di temp, quindi ... metti 1 -->
         <param name="HasRotorEncoder">          1                   1                   </param>
         <param name="HasRotorEncoderIndex">     1                   1                   </param>
         <param name="HasSpeedEncoder">          0                   0                   </param>
-        <param name="RotorIndexOffset">         18                  20                  </param>
+        <param name="RotorIndexOffset">         301                 324                 </param>
         <param name="MotorPoles">               8                   8                   </param>
     </group>
 
